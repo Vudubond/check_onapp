@@ -17,7 +17,7 @@
         print "Error: " . $response['error']['errormessage'] . "\n";
         exit;
     }
-	
+	//
     foreach ($response as $array) {
 		foreach ($array as $alerts['zombie_disks']) {
 				print $alerts['zombie_disks'];		
